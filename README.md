@@ -21,7 +21,8 @@ Enviromental Tech
 - Changed for Gregtech Ores etc
 
 Crafttweaker Changes
-- Changed Pump recipes to be less horrible - they were a nightmare.
+- Changed Pump recipes to be less horrible - they were a nightmare. (still be to added in zs)
+- Adding other custom recipes for Gregtech. (still to be added through the zs)
 
 Crafttweaker Additions
 - Added a script file for Immersive Engineering
@@ -32,9 +33,20 @@ Config Removals
 - Removed Hardcore Darkness Config
 
 New Mods
-Immersive Engineering
+- Immersive Engineering
+- Bonsai Trees
+- Enviromental Tech
+- ET Lunar
+- Eye of Dragons
+- Reborn Core
+- Reborn Storage
+- Valkyrie Library
+- Journeymap (server side only) [to be added]
 
 Mod Updates
+- 
 
 Removed Mods
 Hardcore Darkness
+
+
