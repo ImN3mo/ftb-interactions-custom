@@ -45,9 +45,8 @@ New Mods
 - Journeymap (server side only) [to be added]
 
 Mod Updates
-- 
 
 Removed Mods
-Hardcore Darkness
+- Hardcore Darkness
 
 
