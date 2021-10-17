@@ -7,18 +7,18 @@ General Config Changes
 - Added ice mountains onto planetdefs in Advanced Rocketry
 - Added Custom Immersive Engineer Configs
  - Spice of Life
-  - Disabled Dimishing Returns 
-  - Changed Stack Size in Food Containers to 64  
-  - Changed Food History to 1
+   - Disabled Dimishing Returns 
+   - Changed Stack Size in Food Containers to 64  
+   - Changed Food History to 1
 - Ice & Fire
-  - Disabled Dragon Griefing
-  - Changed Dragon spawn rate to 90
-  - Dragon Hunger set to 10000
-  - Enabled Dragons in the Moon and the other two exclusive dimensions
+   - Disabled Dragon Griefing
+   - Changed Dragon spawn rate to 90
+   - Dragon Hunger set to 10000
+   - Enabled Dragons in the Moon and the other two exclusive dimensions
 - ProjectE 
    - Disabled Immersive Engineering Items  
 - Enviromental Tech
-- Changed for Gregtech Ores etc
+   - Changed for Gregtech Ores etc
 
 Crafttweaker Changes
 - Changed Pump recipes to be less horrible - they were a nightmare. (still be to added in zs)
