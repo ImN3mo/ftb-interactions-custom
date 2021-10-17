@@ -81,7 +81,7 @@
       "id": "gregtech:ore_gold_0"
     },
     {
-      "target": "grey",
+      "target": "gray",
       "weight": 400,
       "id": "gregtech:ore_graphite_0"
     },
@@ -101,7 +101,7 @@
       "id": "gregtech:ore_ignis_infused_0"
     },
     {
-      "target": "grey",
+      "target": "gray",
       "weight": 800,
       "id": "gregtech:ore_iron_0"
     },
@@ -131,12 +131,12 @@
       "id": "gregtech:ore_olivine_0"
     },
     {
-      "target": "light_grey",
+      "target": "light_gray",
       "weight": 200,
       "id": "gregtech:ore_ordo_infused_0"
     },
     {
-      "target": "grey",
+      "target": "gray",
       "weight": 300,
       "id": "gregtech:ore_pyrolusite_0"
     },
@@ -161,7 +161,7 @@
       "id": "gregtech:ore_salt_0"
     },
     {
-      "target": "light_grey",
+      "target": "light_gray",
       "weight": 200,
       "id": "gregtech:ore_saltpeter_0"
     },
@@ -171,7 +171,7 @@
       "id": "gregtech:ore_sapphire_0"
     },
     {
-      "target": "grey",
+      "target": "gray",
       "weight": 500,
       "id": "gregtech:ore_silver_0"
     },
@@ -201,7 +201,7 @@
       "id": "gregtech:ore_terra_infused_0"
     },
     {
-      "target": "light_grey",
+      "target": "light_gray",
       "weight": 600,
       "id": "gregtech:ore_tin_0"
     },
