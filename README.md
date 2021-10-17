@@ -4,8 +4,9 @@ Basically this is a private custom configs etc for FTB Interactions.
 Changelog 
  
 General Config Changes 
-- Added ice mountains onto planetdefs in Advanced Rocketry
-- Added Custom Immersive Engineer Configs
+- Advanced Rocketery
+   - Added ice mountains onto planetdefs in Advanced Rocketry
+   - Added Custom Immersive Engineer Configs
  - Spice of Life
    - Disabled Dimishing Returns 
    - Changed Stack Size in Food Containers to 64  
