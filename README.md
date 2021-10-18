@@ -1,6 +1,4 @@
 # ftb-interactions-custom
-Basically this is a private custom configs etc for FTB Interactions.
-
 Changelog 
  
 General Config Changes 
@@ -39,14 +37,13 @@ New Mods
 - Enviromental Tech
 - ET Lunar
 - Eye of Dragons
-- Reborn Core
+
 - Reborn Storage
 - Valkyrie Library
 - Journeymap (server side only) [to be added]
 
 Mod Updates
+- Reborn Core (updated to 1.12.2-3.19.5)
 
 Removed Mods
 - Hardcore Darkness
-
-
