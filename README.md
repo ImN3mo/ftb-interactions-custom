@@ -37,7 +37,6 @@ New Mods
 - Enviromental Tech
 - ET Lunar
 - Eye of Dragons
-
 - Reborn Storage
 - Valkyrie Library
 - Journeymap (server side only) [to be added]
