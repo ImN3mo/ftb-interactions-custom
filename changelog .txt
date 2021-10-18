@@ -4,7 +4,7 @@ General Config Changes
 - Advanced Rocketery
    - Added ice mountains onto planetdefs in Advanced Rocketry
    - Added Custom Immersive Engineer Configs
- - Spice of Life
+- Spice of Life
    - Disabled Dimishing Returns 
    - Changed Stack Size in Food Containers to 64  
    - Changed Food History to 1
@@ -36,7 +36,6 @@ New Mods
 - Enviromental Tech
 - ET Lunar
 - Eye of Dragons
-
 - Reborn Storage
 - Valkyrie Library
 - Journeymap (server side only) [to be added]
