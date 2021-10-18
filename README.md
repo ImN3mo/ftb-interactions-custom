@@ -39,11 +39,12 @@ New Mods
 - Eye of Dragons
 - Reborn Storage
 - Valkyrie Library
-- Journeymap (server side only) [to be added]
+- Journeymap (server side only)
 
 Mod Updates
 - Reborn Core (updated to 1.12.2-3.19.5)
 
 Removed Mods
 - Hardcore Darkness
+
 
