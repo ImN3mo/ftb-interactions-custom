@@ -5,7 +5,7 @@ General Config Changes
 - Advanced Rocketery
    - Added ice mountains onto planetdefs in Advanced Rocketry
    - Added Custom Immersive Engineer Configs
- - Spice of Life
+- Spice of Life
    - Disabled Dimishing Returns 
    - Changed Stack Size in Food Containers to 64  
    - Changed Food History to 1
@@ -46,3 +46,4 @@ Mod Updates
 
 Removed Mods
 - Hardcore Darkness
+
