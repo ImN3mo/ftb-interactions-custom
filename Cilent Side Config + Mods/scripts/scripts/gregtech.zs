@@ -1255,126 +1255,92 @@ mods.chisel.Carving.addVariation("GTMolds", i);
 }
 
 
-	#Pump - LV
-assembler.recipeBuilder()
+	#Motor - LV
+assembler.recipeBuilder()	
+    .inputs([<ore:cableGtSingleTin> * 2, <ore:stickIron> * 2, <ore:stickIronMagnetic>, <ore:ingotCopper> * 2])
+	.outputs(<metaitem:electric.motor.lv>)
+	.EUt(10)
+	.duration(300)
+	.buildAndRegister();
+
+assembler.recipeBuilder()		
+    .inputs([<ore:cableGtSingleTin> * 2, <ore:stickSteel> * 2, <ore:stickSteelMagnetic>, <ore:ingotCopper> * 2])
+	.outputs(<metaitem:electric.motor.lv>)
+	.EUt(10)
+	.duration(300)
+	.buildAndRegister();
+	
+#Motor - MV
+
+#Motor - HV
+
+#Motor - EV
+
+#Motor - IV	
+
+#Pump - LV	
+assembler.recipeBuilder()	
 	.inputs([<ore:cableGtSingleTin>, <ore:ringPaper> * 2, <ore:pipeMediumBronze>, <metaitem:electric.motor.lv>])
-	.fluidInputs([<liquid:tin> * 648])
 	.outputs(<metaitem:electric.pump.lv>)
 	.EUt(15)
-	.duration(1200)
+	.duration(300)
 	.buildAndRegister();
 
 assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleTin>, <ore:ringRubber> * 2, <ore:pipeMediumBronze>, motorLV])
-	.fluidInputs([<liquid:tin> * 648])
-	.outputs(pumpLV)
-	.EUt(15)
-	.duration(600)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleTin>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumBronze>, motorLV])
-	.fluidInputs([<liquid:tin> * 648])
+	.inputs([<ore:cableGtSingleTin>, <ore:ringRubber> * 2, <ore:pipeMediumBronze>, <ore:ingotTin> * 5, motorLV])
 	.outputs(pumpLV)
 	.EUt(15)
 	.duration(300)
 	.buildAndRegister();
 
-	#Pump - MV
+#Pump - MV
+assembler.recipeBuilder()
+	.inputs([<ore:cableGtSingleCopper>, <ore:ringRubber> * 2, <ore:pipeMediumSteel>, <ore:ingotBronze> * 5, <metaitem:electric.motor.mv>])
+	.outputs(pumpMV)
+	.EUt(60)
+	.duration(300)
+	.buildAndRegister();
+	
 assembler.recipeBuilder()
 	.inputs([<ore:cableGtSingleCopper>, <ore:ringRubber> * 2, <ore:pipeMediumSteel>, <metaitem:electric.motor.mv>])
-	.fluidInputs([<liquid:bronze> * 648])
-	.outputs(pumpMV)
-	.EUt(60)
-	.duration(1200)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleCopper>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumSteel>, motorMV])
-	.fluidInputs([<liquid:bronze> * 648])
-	.outputs(pumpMV)
-	.EUt(60)
-	.duration(600)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleCopper>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumSteel>, motorMV])
-	.fluidInputs([<liquid:bronze> * 648])
 	.outputs(pumpMV)
 	.EUt(60)
 	.duration(300)
-	.buildAndRegister();
+	.buildAndRegister();	
 
-	#Pump - HV
+#Pump - HV
 assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleGold>, <ore:ringRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:steel> * 648])
+	.inputs([<ore:cableGtSingleGold>, <ore:ringRubber> * 2, <ore:pipeMediumStainlessSteel>, <ore:ingotSteel> * 5, motorHV])
 	.outputs(pumpHV)
 	.EUt(240)
-	.duration(1200)
+	.duration(300)
 	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleGold>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:steel> * 648])
-	.outputs(pumpHV)
-	.EUt(240)
-	.duration(600)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleGold>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumStainlessSteel>, motorHV])
-	.fluidInputs([<liquid:steel> * 648])
+	
+	assembler.recipeBuilder()
+	.inputs([<ore:cableGtSingleGold>, <ore:ringRubber> * 2, <ore:pipeMediumStainlessSteel>, <metaitem:electric.motor.hv>])
 	.outputs(pumpHV)
 	.EUt(240)
 	.duration(300)
 	.buildAndRegister();
 
-	#Pump - EV
+#Pump - EV
 assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleAluminium>, <ore:ringRubber> * 2, <ore:pipeMediumTitanium>, motorEV])
-	.fluidInputs([<liquid:stainless_steel> * 648])
+	.inputs([<ore:cableGtSingleAluminium>, <ore:ringRubber> * 2, <ore:pipeMediumTitanium>, <ore:ingotStainlessSteel> * 5, motorEV])
 	.outputs(pumpEV)
 	.EUt(960)
-	.duration(1200)
+	.duration(300)
 	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleAluminium>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumTitanium>, motorEV])
-	.fluidInputs([<liquid:stainless_steel> * 648])
-	.outputs(pumpEV)
-	.EUt(960)
-	.duration(600)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleAluminium>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumTitanium>, motorEV])
-	.fluidInputs([<liquid:stainless_steel> * 648])
+	
+	assembler.recipeBuilder()
+	.inputs([<ore:cableGtSingleAluminium>, <ore:ringRubber> * 2, <ore:pipeMediumTitanium>, <metaitem:electric.motor.ev>])
 	.outputs(pumpEV)
 	.EUt(960)
 	.duration(300)
 	.buildAndRegister();
 
-	#Pump - IV
+#Pump - IV
 assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleTungsten>, <ore:ringRubber> * 2, <ore:pipeMediumTungstenSteel>, motorIV])
-	.fluidInputs([<liquid:tungsten_steel> * 648])
-	.outputs(pumpIV)
-	.EUt(3840)
-	.duration(1200)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleTungsten>, <ore:ringStyreneButadieneRubber> * 2, <ore:pipeMediumTungstenSteel>, motorIV])
-	.fluidInputs([<liquid:tungsten_steel> * 648])
-	.outputs(pumpIV)
-	.EUt(3840)
-	.duration(600)
-	.buildAndRegister();
-
-assembler.recipeBuilder()
-	.inputs([<ore:cableGtSingleTungsten>, <ore:ringSiliconRubber> * 2, <ore:pipeMediumTungstenSteel>, motorIV])
-	.fluidInputs([<liquid:tungsten_steel> * 648])
+	.inputs([<ore:cableGtSingleTungsten>, <ore:ringRubber> * 2, <ore:pipeMediumTungstenSteel>, <ore:ingotTungstenSteel> * 5, motorIV])
 	.outputs(pumpIV)
 	.EUt(3840)
 	.duration(300)
