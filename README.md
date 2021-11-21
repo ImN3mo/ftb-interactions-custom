@@ -27,6 +27,7 @@ Crafttweaker Additions
 - Added a script file for Immersive Engineering
 - Disabled most of the items bar for a few
 - Added custom gregtech recipes for some of the items!
+- Updated Chickens.zs
 
 Config Removals
 - Removed Hardcore Darkness Config
@@ -46,5 +47,4 @@ Mod Updates
 
 Removed Mods
 - Hardcore Darkness
-
 

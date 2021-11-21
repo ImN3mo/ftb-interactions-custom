@@ -1,7 +1,5 @@
 Changelog 
  
-Changelog 
- 
 General Config Changes 
 - Advanced Rocketery
    - Added ice mountains onto planetdefs in Advanced Rocketry
@@ -28,6 +26,7 @@ Crafttweaker Additions
 - Added a script file for Immersive Engineering
 - Disabled most of the items bar for a few
 - Added custom gregtech recipes for some of the items!
+- Updated Chickens.zs
 
 Config Removals
 - Removed Hardcore Darkness Config
