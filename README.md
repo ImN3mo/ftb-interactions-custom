@@ -18,6 +18,7 @@ General Config Changes
    - Disabled Immersive Engineering Items  
 - Enviromental Tech
    - Changed for Gregtech Ores etc
+- Added Missing files for the Nightmare Chicken for Roost and Crafttweaker
 
 Crafttweaker Changes
 - Changed Pump recipes to be less horrible - they were a nightmare. (still be to added in zs)
@@ -47,4 +48,5 @@ Mod Updates
 
 Removed Mods
 - Hardcore Darkness
+
 
