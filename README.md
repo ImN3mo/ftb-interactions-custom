@@ -19,6 +19,7 @@ General Config Changes
 - Enviromental Tech
    - Changed for Gregtech Ores etc
 - Added Missing files for the Nightmare Chicken for Roost and Crafttweaker
+- Added Missing Configs from 2.0.10
 
 Crafttweaker Changes
 - Changed Pump recipes to be less horrible - they were a nightmare. (still be to added in zs)
