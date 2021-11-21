@@ -47,6 +47,6 @@
 	{
 		uid: "cf2d0e1d",
 		type: "command",
-		command: "/tc research @p EVERFULLURN"
+		command: "/thaumcraft research @p EVERFULLURN"
 	}]
 }

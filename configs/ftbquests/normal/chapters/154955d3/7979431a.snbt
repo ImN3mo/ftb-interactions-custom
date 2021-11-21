@@ -33,5 +33,36 @@
 		type: "item",
 		item: "lteleporters:endercrystal",
 		count: 2
+	},
+	{
+		uid: "0bc218c8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5570085101611273969L,
+					AS_Amulet_HolderMost: 5678865977197479355L
+				}
+			},
+			id: "minecraft:shield",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 67s
+				},
+				{
+					lvl: 9s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Riot Shield"
+				}
+			}
+		}
 	}]
 }

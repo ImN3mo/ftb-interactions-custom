@@ -17,10 +17,10 @@
 		items: [{
 			id: "roost:chicken",
 			tag: {
-				Growth: 1,
+				Growth: 10,
 				Chicken: "contenttweaker:infinitychicken",
-				Gain: 1,
-				Strength: 1
+				Gain: 10,
+				Strength: 10
 			}
 		}]
 	},

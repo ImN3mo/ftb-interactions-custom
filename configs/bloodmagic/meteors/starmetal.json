@@ -9,7 +9,7 @@
   "components": [
     {
       "weight": 400,
-      "oreName": "stone"
+      "oreName": "blockMarble"
     },
 	{
       "weight": 200,

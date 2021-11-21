@@ -22,6 +22,9 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 744"
+		},
+		{
+			item: "gregtech:machine 1 734"
 		}]
 	},
 	{
@@ -30,5 +33,17 @@
 		items: [{
 			item: "gregtech:machine 1 603"
 		}]
+	}],
+	rewards: [{
+		uid: "07b73a06",
+		type: "item",
+		item: "gregtech:metal_casing 1 5",
+		count: 16
+	},
+	{
+		uid: "a0dcf8eb",
+		type: "item",
+		item: "enderio:item_fluid_filter",
+		count: 8
 	}]
 }

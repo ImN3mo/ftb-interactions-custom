@@ -8,9 +8,9 @@
 		"{interactions.7dc11b04.7e1383c5.text.1}"
 	],
 	dependencies: [
-		"4f55dcad",
 		"ad93edf9",
 		"ea573063",
+		"aa1a6d27",
 		"bb95207a"
 	],
 	tasks: [{

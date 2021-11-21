@@ -19,7 +19,7 @@
 		items: [{
 			item: "gregtech:wire_coil 1 8"
 		}],
-		count: 32L
+		count: 16L
 	},
 	{
 		uid: "dfdac0ff",
@@ -27,7 +27,7 @@
 		items: [{
 			item: "gregtech:multiblock_casing 1 4"
 		}],
-		count: 79L
+		count: 20L
 	},
 	{
 		uid: "3e718361",
@@ -49,5 +49,22 @@
 		type: "item",
 		item: "gregtech:meta_item_2 1 15807",
 		count: 8
+	},
+	{
+		uid: "5ebaae63",
+		type: "item",
+		item: "gregtech:multiblock_casing 1 4",
+		count: 59
+	},
+	{
+		uid: "5a48e4f5",
+		type: "item",
+		item: "gregtech:wire_coil 1 8",
+		count: 16
+	},
+	{
+		uid: "bf5d30dc",
+		type: "xp_levels",
+		xp_levels: 200
 	}]
 }

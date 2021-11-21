@@ -19,5 +19,16 @@
 			Damage: 32762s
 		}],
 		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "f2dc9290",
+		type: "item",
+		item: "contenttweaker:nightmare_enriched_egg",
+		count: 16
+	},
+	{
+		uid: "7450b90b",
+		type: "item",
+		item: "gregtech:machine 1 1020"
 	}]
 }

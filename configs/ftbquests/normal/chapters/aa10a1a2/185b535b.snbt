@@ -43,5 +43,11 @@
 		type: "item",
 		item: "enderstorage:ender_storage 1 1",
 		count: 2
+	},
+	{
+		uid: "f38668d7",
+		type: "item",
+		item: "gregtech:ore_uranium235_0",
+		count: 32
 	}]
 }

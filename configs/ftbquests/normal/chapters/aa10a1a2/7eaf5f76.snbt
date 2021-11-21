@@ -19,5 +19,10 @@
 			Damage: 32762s
 		}],
 		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "41872692",
+		type: "item",
+		item: "rftools:matter_booster"
 	}]
 }

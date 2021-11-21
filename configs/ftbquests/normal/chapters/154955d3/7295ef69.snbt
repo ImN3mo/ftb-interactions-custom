@@ -11,8 +11,11 @@
 		"e7d70489"
 	],
 	tasks: [{
-		uid: "301c7161",
-		type: "checkmark"
+		uid: "ea3a82c7",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
 	}],
 	rewards: [{
 		uid: "4c13d830",
