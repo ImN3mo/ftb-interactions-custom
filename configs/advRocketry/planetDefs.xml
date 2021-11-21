@@ -59,7 +59,7 @@
             <orbitalPhi>30</orbitalPhi>
             <rotationalPeriod>2400</rotationalPeriod>
             <atmosphereDensity>80</atmosphereDensity>
-            <biomeIds>advancedrocketry:hotdryrock,advancedrocketry:crystalchasms,minecraft:ocean,minecraft:ice_flats</biomeIds>
+            <biomeIds>advancedrocketry:hotdryrock,advancedrocketry:crystalchasms,minecraft:ocean</biomeIds>
             <artifact>contenttweaker:overworldessencel</artifact>
             <oceanBlock>tconstruct:molten_obsidian</oceanBlock>
         </planet>
